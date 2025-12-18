@@ -125,21 +125,3 @@ const stream = fs.createWriteStream(OUTPUT_FILE, { flags: "a" })
         )
     }
 })()
-
-    // const { data: marcas } = await axios.get(linkMarcas)
-
-    // const urls = []
-    // for (const marca of marcas) {
-    //     await sleep(800)
-    // const { data: modelos } = await axiosComRetry(
-    //     `https://brasilapi.com.br/api/fipe/veiculos/v1/carros/${marca.valor}`
-    // )
-
-    // modelos.forEach(async (modelo) => {
-    //     await sleep(800)
-    //     const nomeModelo = modelo.modelo.split(" ")[0]
-    //     urls.push(
-    //     `https://tabelacarros.com/anos_modelos/carros/${marca.nome}/${nomeModelo}`
-    //     )
-    // })
-    // }
